@@ -1,0 +1,119 @@
+body {
+
+    background: linear-gradient( 60deg, #ffffff, #de91e5);
+ 
+}
+
+.introduction__photo img {
+ width: 100vw;
+    filter: drop-shadow(-12px 20px 18px rgba(255, 0, 0, 0.797)) invert(75%);
+
+    margin-top: -400px;
+   
+   
+}
+
+
+div.card {
+
+    background-color: rgb(243, 222, 222);
+    width: 500px;
+   box-shadow: 20px 10px 20px 4px #de91e5;
+   border-radius: 10px 8px;
+   border-style: solid;
+ border-color:    rgba(147, 72, 72, 0);
+
+ background-image: url(/images/binoculars\ home\ decor.png);
+
+ background-size:contain;
+ background-repeat: no-repeat;
+
+ background-position: 50% 50%;
+ filter:brightness(110%);
+
+ 
+}
+
+
+div.card:nth-child(3)  {
+
+    background-image: url(/images/bowl\ home\ decor.png);
+}
+
+
+div.card:last-child  {
+
+    background-image: url(/images/glass\ o\ home\ decor.png);
+}
+
+
+
+.card__content {
+
+    background-color: aliceblue;
+
+
+  
+  
+    
+
+
+  
+
+  
+    
+}
+
+.card:focus, .card:hover {
+
+padding: 0px;
+border-style: solid;
+border-color: aqua;
+
+}
+
+
+button {
+
+    display: flex;
+
+    margin: 0 auto;
+
+    color: #ffffff;
+    background-color: #4d2e50;
+
+    margin-top: 20px;
+
+    border: 2px rgba(0, 255, 255, 0) solid;
+    box-shadow: 4px 2px     5px 1px rgb(150, 69, 123);
+}
+
+button:hover {
+    border: 3px aqua solid;
+    border-color: aqua;
+    box-shadow: none;
+    
+}
+
+div.product__image {
+
+    background-image: url(/images/couch\ home\ decor\ yellow.png);
+
+  
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    z-index: 1000;
+}
+
+
+h1.products__heading {
+   
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-underline-offset: 15px;
+    margin-top: 300px;
+}
+
+
+/*colours, symbols, contrast, the dynamic message of something about to happen, convey positive assosications*/

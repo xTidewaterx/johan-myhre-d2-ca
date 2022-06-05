@@ -1,0 +1,188 @@
+body {
+    font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-image: linear-gradient(161deg, #ca97cc 16.67%, #37617a 16.67%, #37617a 50%, #ca97cc 50%, #ca97cc 66.67%, #37617a 66.67%, #37617a 100%);
+    background-size: 18.43px 6.35px;
+
+    background: linear-gradient(#bc5ce9, #ced134);
+
+
+
+
+
+ 
+
+   font-family: 'Playfair Display', serif;
+
+ 
+
+
+
+
+  }
+
+  .active {
+
+    text-decoration: underline;
+    text-underline-offset: 12px;
+  }
+  
+h1,
+h2
+ {
+  font-family:  "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+ 
+}
+
+nav {
+  margin-left: 25px;
+  display: none;
+  position: fixed;
+  top: 45px;
+  background: var(--color-header-footer);
+  z-index: 1010;
+  right: 0px;
+}
+
+nav ul {
+  padding: 0px;
+  margin-top: 80px;
+  margin-right: 50px;
+  background-color: linear-gradient(161deg, #e2f136 16.67%, #37617a 16.67%, #37617a 50%, #ca97cc 50%, #ca97cc 66.67%, #37617a 66.67%, #37617a 100%);
+  border-radius: 5px 8px;
+  background: linear-gradient(80deg, #bc30fdd0 60%, #f6f93dbb 80%);
+
+  
+
+  
+}
+
+nav li {
+  display: block;
+  padding: 30px 46px;
+  font-size: larger;
+ 
+}
+
+a {
+
+  color: rgb(255, 255, 255);
+  
+}
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+
+label {
+  position: fixed;
+  right: 0px;
+  margin: 50px;
+  color: white;
+  z-index: 100000;
+}
+
+.logo {
+  margin: 50px;
+}
+
+
+
+  button {
+
+    border-style: none;
+    background-color: #d5fc47;
+    padding: 10px;
+    border-radius: 5px 8px;
+  }
+
+
+  footer {
+
+    text-align: center;
+    padding: 20px;
+  background-color: aqua;
+    color: white;
+
+   
+    max-height: 50px;
+    margin-top: 150px;
+  
+  }
+
+
+  a {
+
+    text-decoration: none;
+  }
+
+
+  div.card {
+    position: relative;
+    width: 40vw;
+    min-width: 300px;
+    min-height: 400px;
+     max-width: 100px;
+     max-height: 400px;
+    background-color: #cf2edd;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 300PX;
+    margin-bottom: 100PX;
+}
+
+.card__content {
+  position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100px;
+    height: 10vw;
+    max-height: 100px;   
+    background-color: #ddcf2e;
+
+    max-width: 300px;
+
+    text-align: center;
+    
+   
+}
+
+.logo__content {
+
+  width: 100px;
+  height: 100px;
+   background-image: url(/images/logo__home__decor.png);
+   background-size: contain;
+   z-index: 40000;
+   background-repeat: no-repeat;
+   background-color: rgb(135, 21, 163);
+   border-radius: 5%;
+
+
+}
+
+footer p {
+
+  padding: 10px;
+  border-radius: 5px 5px;
+  width: 20%;
+  background-color: rgb(9, 136, 136);
+  margin: 0 auto;
+
+}

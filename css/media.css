@@ -1,0 +1,53 @@
+@media (min-width: 1500px) { 
+
+
+    .image__container {
+
+        margin-top: 140px;
+    }
+
+ 
+ }
+
+
+ @media (max-width: 600px ) {
+
+
+    main i {
+
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 30px;
+        padding: 100px;
+        padding-right: 5px;
+     
+        margin-bottom: 40px;
+    }
+
+
+    h1.products__heading {
+
+        font-size: 45px;
+        color: rgb(255, 255, 255);
+   
+    
+        margin-top: 100px;
+    }
+
+    .introduction__photo img {
+
+        margin-top: -45vw;
+    }
+ }
+
+
+
+ @media (max-width: 900px) {
+
+    .introduction__photo img {
+
+        margin-top: -45vw;
+    }
+
+ }
