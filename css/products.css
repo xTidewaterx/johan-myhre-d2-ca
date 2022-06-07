@@ -5,7 +5,7 @@ body {
 }
 
 .introduction__photo img {
- width: 100vw;
+ width: 94vw;
     filter: drop-shadow(-12px 20px 18px rgba(255, 0, 0, 0.797)) invert(75%);
 
     margin-top: -400px;
